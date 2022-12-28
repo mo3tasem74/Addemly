@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addemly</title>
+    <link rel="stylesheet" href="../css/styles.css"></head>
+<body>
+    <header>
+      <div>
+          <img id="logo"  style="margin: 0;" src="../resources/svgs/logo.svg" alt="logo">
+    </div>
+    <p id="logoutButton" >logout</p>
+</header>
+    <div class="profileContainer">
+        <div>
+        <li class="active" id="editProfile">Edit Profile</li>
+        <li id="viewRecords">Records</li>
+    </div>
+        <div class="userInput">
+            <img src="../resources/svgs/profile.svg" alt="profile picture" width="100" height="100">
+            <input type="text" name="email" id="name" placeholder="Name"> 
+            <input type="password" name="password" id="password" placeholder="Password">
+            <button id="changePassword">Submit Changes</button>
+        </div>
+        <div class="recordHolder"></div>
+    </div>
+    <script src="../js/profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>addemly</title>
+</head>
+<body>
+    <header class="main-header">
+        <img id="logo" src="resources/svgs/logo.svg" alt="website logo">
+        <div class= "header-items">
+        <ul>
+            <li>
+                <a href="index.html">home</a>
+            </li>
+            <li>
+               <a href="html/tools.html">tools</a> 
+            </li>
+            <li>
+                <a href="html/aboutus.html">About</a>
+            </li>
+        </ul>
+        </div>
+        <div class="authButtons">
+            <a href="../html/profile.html" id="userData"></a>
+            <a href="html/login.html" class="authButton">login</a>
+            <a href="html/signup.html" class="authButton">signup</a>
+        </div>
+    </header>
+    <section class="introSection">
+        <div id="introText">
+        <h1 id="mainHeader">Facing Issues with your presentations?</h1>
+        <h1 id="detailedHeader">You are not alone. Studies show that almost 77% of people all around the world suffer from Fear of public speaking.</h1>
+    </div>
+    <div >
+        <img src="resources/svgs/stressed.svg" alt="stressed" id="stressed">
+    </div>
+    </section>
+    <section id="presentationSection">
+        <h1 class="centeredText">Why use addemly?</h1>
+        <div class="toolSection">
+            <img src="resources/svgs/presentation.svg" alt="presentation" id="presentaionImg"/>
+            <div id="toolsCont">
+                <p>
+                    our tools are built with cutting edge technologies
+                    in machine learning and science of public speaking
+                    to enable you to give better presentations.
+                </p>
+                <div class="flexRow">
+                <a href="html/aboutus.html" class="authButton darkened" style="font-size: 0.8rem;">Learn More</a>
+                <a href="html/tips.html" class="authButton" style="font-size: 0.8rem;">Tips and Tricks</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="topToBotSec">
+        <h1 class="centeredText">How it works?</h1>
+        <div class="leftToRight">
+            <div class="rectCard">
+                <div class="iconHeader" >
+                    <img src="" alt="">
+                    <h1 class="centeredText lightText">Record</h1>
+                </div>
+                <p class="centeredText lightText normal">Record yourself giving a presentation using our built-in audio recorders</p>
+                <img src="resources/svgs/record.svg" alt="recording image" class="card-svg">
+            </div>
+            <div class="rectCard light">
+                <div class="iconHeader">
+                    <img src="resources/svgs/lamp.svg" alt="idea icon">
+                    <h1 class="centeredText lightText">Understand </h1>
+                </div>
+                <p class="centeredText lightText normal">Understand the areas the need improvement and require more care by reading the interactive feedback provided by our AI powered tools</p>
+                <img src="resources/svgs/feedback.svg" alt="looking through feedback" class="card-svg">
+            </div>
+            <div class="rectCard">
+                <div class="iconHeader">
+                    <img src="resources/svgs/repeat.svg" alt="repeat sign">
+                    <h1 class="centeredText lightText">REPEAT</h1>
+                </div>
+                <p class="centeredText lightText normal">Try again and watch your confidences and presentation skills grow with your scores</p>
+                <img src="resources/svgs/growth.svg" alt="growth curve" class="card-svg">
+            </div>
+        </div>
+    </section> 
+    <script src="/js/checkLoggedIn.js"></script>
+</body>
+</html>

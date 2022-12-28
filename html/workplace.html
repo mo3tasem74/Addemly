@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addemly</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="workspace">
+    <img src="../resources/svgs/back.svg" class="backButton">
+    <div class="centeredRow"><img id="logo" src="../resources/svgs/logo.svg" alt="Website logo"></div>
+    <div class="flexRow">
+    <div class="timely" id="recordsBox">Record Box 
+        <div class="notifier"><br>You currnetly have not recorded anyrthing in this session</div>
+        <div id="Results">
+            
+        </div>
+    </div>
+    <div class="timely">Timely tool <div id="addSection">
+        <input placeholder="section Title" type="text" name="section" id="sectionTitle" class="timerInput">
+        <input placeholder="time in minutess" type="number" name="time"  id="sectionTime" class="timerInput">  
+        <button id="addSectionBtn">Add section</button>
+        </div>
+    <div id="sectionsContainer"></div>   
+    </div>
+    </div>
+    <div class="recorder">
+        <div>
+            <input type="file" id="file">
+            <button id="upload">Upload</button>
+        </div>
+        <div class="tools">
+            <img src="../resources/svgs/startRecording.svg" alt="record button" class="recorderButtons noRec" id="record">
+            <img src="../resources/svgs/stop.svg" alt="stop button" class="recorderButtons rec" id="stopRecord">
+            <!-- <img src="../resources/svgs/pause.svg" alt="pause button" class="recorderButtons rec" id="pauseRecord"> -->
+            <p id="recordCounter"></p>
+
+        </div>
+    </div>
+
+<script src="../js/workplace.js"></script>
+</body>
+
+</html>

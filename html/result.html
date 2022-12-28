@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <header>
+      <div class="centeredLogo">
+          <img id="logo" class="logo" src="../resources/svgs/logo.svg" alt="logo">
+    </div>
+      
+  </header>
+  <body>
+    <!--Div that will hold the pie chart-->
+    <div class="fullText"></div>
+    <div class="smallStats">
+        <div class="smallStat">
+            <img src="../resources/svgs/fillers.svg" alt="fillers">
+            <div>
+                <p>Fillers</p>
+                <p id="resFillers"> N/A</p>
+            </div>
+        </div>
+        <div class="smallStat">
+            <img src="../resources/svgs/metro.svg" alt="metronome">
+            <div>
+                <p>Metronome</p>
+                <p id="resMetronome"> N/A</p>
+            </div>
+        </div>  
+        <div class="smallStat">
+            <img src="../resources/svgs/timer.svg" alt="timer">
+            <div>
+                <p>Time</p>
+                <p id="resultTime"> N/A</p>
+            </div>
+        </div>
+        <div class="smallStat">
+            <img src="../resources/svgs/target.svg" alt="target">
+            <div>
+                <p>Target time</p>
+                <p  id="trgTime"> N/A</p>
+            </div>
+        </div>
+     
+    </div>
+    <div class="resultStats">
+    <div id="chart_div"></div>
+    <div id="sentence"></div>
+    </div>
+    <script type="text/javascript" src="../js/result.js"></script>
+    </body>
+    </html>

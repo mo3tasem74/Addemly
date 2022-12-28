@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addemly</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <img id="logo" src="../resources/svgs/logo.svg" alt="website logo">
+        <div class= "header-items">
+        <ul>
+            <li>
+                <a href="../index.html">home</a> 
+            </li>
+            <li>
+               <a href="tools.html">tools</a> 
+            </li>
+            <li>
+                <a href="aboutus.html">About</a>
+            </li>
+        </ul>
+        </div>
+        <div class="authButtons">
+            <a href="login.html" class="authButton">login</a>
+        </div>
+    </header>
+    <div class="centeredRow verticalRow">
+    
+        <form action="submit" class="authForms">
+            <h1 class="centeredText">Signup to Addemly</h1>
+        <img src="../resources/svgs/logo.svg" alt="logo Image" id="logo">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="password"> password</label>
+            <input type="password" name="password" id="password">
+            <input type="submit" name="signup" id="signup" value="Signup">
+        </form>
+    </div>
+    <script src="../js/signup.js"></script>
+</body>
+</html>
